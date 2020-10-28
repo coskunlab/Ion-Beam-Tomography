@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings>
+  <!-- Film parameters -->
+  <!-- -1 = start at the beginning, analyze to the end -->
+  <start_frame type="int">-1</start_frame>
+  <max_frame type="int">-1</max_frame>
+
+  <!-- A matrix -->
+  <a_matrix type="filename">sample_a7_k5_i8_o8_p8_4.amat</a_matrix>
+
+  <!-- Camera gain -->
+  <!-- Gain in units of ADU / photo-electron. -->
+  <camera_gain type="float">1.0</camera_gain>
+
+  <!-- Camera offset -->
+  <!-- This is what the camera reads with the shutter closed. -->
+  <camera_offset type="float">100.0</camera_offset>
+
+  <!-- epsilon -->
+  <!-- In Bo's paper he suggested 1.5 for poisson simulated data,
+       2.1 for EMCCD data. -->
+  <epsilon type="float">4.2</epsilon>
+
+</settings>
